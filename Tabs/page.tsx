@@ -30,7 +30,6 @@ const TabsWidget = () => {
 
   return (
     <div className="bg-[#2B2E3C] shadow-lg rounded-2xl p-8 w-full max-w-md mx-auto">
-      {/* Tab header */}
       <div className="relative flex justify-around mb-4 bg-black rounded-full p-1">
         {tabs.map((tab) => (
           <button
@@ -85,3 +84,4 @@ const TabsWidget = () => {
 };
 
 export default TabsWidget;
+
