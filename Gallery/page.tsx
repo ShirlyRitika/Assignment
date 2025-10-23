@@ -26,22 +26,16 @@ const GalleryWidget = () => {
 
   return (
     <div className="bg-[#2B2E3C] shadow-lg rounded-2xl p-6 w-full max-w-md mx-auto">
-      {/* Header Section */}
       <div className="flex justify-between items-center mb-6">
-        {/* Gallery title */}
         <div className="bg-black text-white px-5 py-2 rounded-xl shadow-[0_0_10px_rgba(255,255,255,0.3)] font-semibold text-sm">
           Gallery
         </div>
-
-        {/* Add Image Box */}
         <div
           onClick={addImage}
           className="bg-[#3A3E4F] text-white px-4 py-2 rounded-xl shadow-[0_0_10px_rgba(255,255,255,0.2)] hover:shadow-[0_0_15px_rgba(255,255,255,0.4)] transition-all duration-300 ease-in-out cursor-pointer font-medium text-sm"
         >
           + Add Image
         </div>
-
-        {/* Arrow controls */}
         <div className="flex items-center gap-3">
           <div className="bg-[#3A3E4F] w-9 h-9 rounded-xl flex items-center justify-center text-white shadow-[0_0_10px_rgba(255,255,255,0.2)] hover:shadow-[0_0_15px_rgba(255,255,255,0.4)] transition-all duration-300 ease-in-out cursor-pointer">
             ←
@@ -79,3 +73,4 @@ const GalleryWidget = () => {
 };
 
 export default GalleryWidget;
+
